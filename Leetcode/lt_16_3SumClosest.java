@@ -1,5 +1,4 @@
 // file: lt_16_3SumClosest.java
-import java.io.*;
 import java.util.*;
 
 class Solution {
@@ -41,7 +40,7 @@ public class lt_16_3SumClosest {
 }
 
 /*
-解題思路（中文）：
+解題思路：
 1. 對陣列進行排序，方便使用雙指標。
 2. 外層固定一個索引 i，內層用左右指標 L=i+1、R=n-1。
 3. 計算 sum = nums[i] + nums[L] + nums[R]：
